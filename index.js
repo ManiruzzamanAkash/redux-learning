@@ -4,6 +4,7 @@ import { createStore } from "redux";
 
 const initialState = {
   value: 0,
+  name: 'AKASH'
 };
 
 function counterReducer(state = initialState, action) {
@@ -17,6 +18,17 @@ function counterReducer(state = initialState, action) {
       return {
         value: state.value - 1,
       };
+
+    case "INCREMENT":
+        return {
+            value: state.value + action.value,
+        };
+
+    case "CHANGE_NAME":
+        return {
+            name: action.name
+        };
+
     default:
       return state;
   }
@@ -24,10 +36,12 @@ function counterReducer(state = initialState, action) {
 
 let store = createStore(counterReducer);
 
-console.log("store state", store.getState());
+store.subscribe(() => console.log(store.getState()));
 
 store.dispatch({ type: "INCREMENT_ONE" });
-console.log("store state after", store.getState());
 
 store.dispatch({ type: "DECREMENT_ONE" });
-console.log("store state after dec", store.getState());
+
+store.dispatch({ type: "INCREMENT", value: 10 });
+
+store.dispatch({ type: "CHANGE_NAME", name: 'POLASH' });
