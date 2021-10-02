@@ -1,5 +1,5 @@
 const initialState = {
-  taskInput: "",
+  taskInput: "Test Task",
   tasks: [
     {
       id: 1,
