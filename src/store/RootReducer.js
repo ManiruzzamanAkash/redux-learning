@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import CounterReducer from "./CounterReducer.js";
-import TaskReducer from "./TaskReducer.js";
+import CounterReducer from "./CounterReducer";
+import TaskReducer from "./TaskReducer";
 
 const RootReducer = combineReducers({
     task: TaskReducer,
