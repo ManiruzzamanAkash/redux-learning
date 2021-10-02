@@ -13,6 +13,10 @@ const initialState = {
       id: 3,
       title: "Third Task",
     },
+    {
+      id: 4,
+      title: "Fourth Task",
+    },
   ],
 };
 

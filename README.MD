@@ -18,3 +18,6 @@ https://github.com/ManiruzzamanAkash/redux-learning/tree/Day5
 
 ### Day 6: Complete Vite app, Redux Starter, React App implementation
 https://github.com/ManiruzzamanAkash/redux-learning/tree/Day6
+
+### Day 7: useSelector Hook - How to get data from Redux Store to component
+https://github.com/ManiruzzamanAkash/redux-learning/tree/Day7

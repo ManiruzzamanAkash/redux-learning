@@ -5,9 +5,9 @@ import App from "./App";
 import { Provider } from "react-redux";
 import store from './store/Store';
 
-console.log('store', store.getState());
-store.dispatch({ type: 'CHANGE_TASK', payload: 'Task Name New' })
-console.log('store', store.getState());
+// console.log('store', store.getState());
+// store.dispatch({ type: 'CHANGE_TASK', payload: 'Task Name New' })
+// console.log('store', store.getState());
 
 ReactDOM.render(
   <React.StrictMode>
