@@ -9,3 +9,6 @@ https://github.com/ManiruzzamanAkash/redux-learning/tree/Day2
 
 ### Day 3: Redux Subscribe & Custom Data From Action
 https://github.com/ManiruzzamanAkash/redux-learning/tree/Day3
+
+### Day 4: Redux Working with Complex State and Change
+https://github.com/ManiruzzamanAkash/redux-learning/tree/Day4
