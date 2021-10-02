@@ -21,3 +21,6 @@ https://github.com/ManiruzzamanAkash/redux-learning/tree/Day6
 
 ### Day 7: useSelector Hook - How to get data from Redux Store to component
 https://github.com/ManiruzzamanAkash/redux-learning/tree/Day7
+
+### Day 8: useDispatch Hook - Store / Update Data in Redux Store
+https://github.com/ManiruzzamanAkash/redux-learning/tree/Day8
