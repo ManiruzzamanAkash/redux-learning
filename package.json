@@ -1,0 +1,15 @@
+{
+  "name": "redux-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1"
+  }
+}
