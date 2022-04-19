@@ -40,3 +40,17 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+.task-ul {
+  margin: 20px 10% 20px 10%;
+  background-color: #eee;
+  padding: 20px;
+  list-style: none;
+  text-align: left;
+}
+.task-ul li {
+  background-color: cadetblue;
+  color: aliceblue;
+  padding: 20px;
+  margin-bottom: 10px;
+}
