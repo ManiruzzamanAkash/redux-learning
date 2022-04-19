@@ -24,3 +24,6 @@ https://github.com/ManiruzzamanAkash/redux-learning/tree/Day7
 
 ### Day 8: useDispatch Hook - Store / Update Data in Redux Store
 https://github.com/ManiruzzamanAkash/redux-learning/tree/Day8
+
+### Day 9: Redux API call using AsyncActionThunk - Get and Post API call in Redux
+https://github.com/ManiruzzamanAkash/redux-learning/tree/Day9
